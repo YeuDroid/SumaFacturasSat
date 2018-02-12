@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumaFacturas Sat", "SumaFacturas Sat.csproj", "{07970187-6115-4BD1-A417-29DB263EC97F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07970187-6115-4BD1-A417-29DB263EC97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07970187-6115-4BD1-A417-29DB263EC97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07970187-6115-4BD1-A417-29DB263EC97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07970187-6115-4BD1-A417-29DB263EC97F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

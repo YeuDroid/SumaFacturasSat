@@ -1,0 +1,16 @@
+C:\Users\yeu\Documents\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\bin\Debug\SumaFacturas Sat.exe.config
+C:\Users\yeu\Documents\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\bin\Debug\SumaFacturas Sat.exe
+C:\Users\yeu\Documents\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\bin\Debug\SumaFacturas Sat.pdb
+C:\Users\yeu\Documents\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas Sat.csprojResolveAssemblyReference.cache
+C:\Users\yeu\Documents\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas_Sat.MainForm.resources
+C:\Users\yeu\Documents\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas Sat.csproj.GenerateResource.Cache
+C:\Users\yeu\Documents\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas Sat.exe
+C:\Users\yeu\Documents\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas Sat.pdb
+C:\Users\a1100\Documents\TOOL3\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas Sat.csprojResolveAssemblyReference.cache
+C:\Users\a1100\Documents\TOOL3\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas_Sat.MainForm.resources
+C:\Users\a1100\Documents\TOOL3\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas Sat.csproj.GenerateResource.Cache
+C:\Users\a1100\Documents\TOOL3\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas Sat.exe
+C:\Users\a1100\Documents\TOOL3\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\bin\Debug\SumaFacturas Sat.exe.config
+C:\Users\a1100\Documents\TOOL3\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\bin\Debug\SumaFacturas Sat.exe
+C:\Users\a1100\Documents\TOOL3\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\bin\Debug\SumaFacturas Sat.pdb
+C:\Users\a1100\Documents\TOOL3\SharpDevelop Projects\SumaFacturas Sat\SumaFacturas Sat\obj\Debug\SumaFacturas Sat.pdb
