@@ -15,15 +15,16 @@ namespace SumaFacturas_Sat
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Button bCopiar;
 		private System.Windows.Forms.Button bGetTotales;
 		private System.Windows.Forms.Label lValores;
 		private System.Windows.Forms.Label lTotales;
 		private System.Windows.Forms.Panel panel2;
-		private System.Windows.Forms.ListView lvValores;
 		private System.Windows.Forms.ImageList imageList;
+		private System.Windows.Forms.SplitContainer splitContainer1;
+		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.ListView lvValores;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -55,12 +56,17 @@ namespace SumaFacturas_Sat
 			this.lValores = new System.Windows.Forms.Label();
 			this.lTotales = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
-			this.lvValores = new System.Windows.Forms.ListView();
-			this.imageList = new System.Windows.Forms.ImageList(this.components);
+			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.imageList = new System.Windows.Forms.ImageList(this.components);
+			this.lvValores = new System.Windows.Forms.ListView();
 			this.tableLayoutPanel1.SuspendLayout();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+			this.splitContainer1.Panel1.SuspendLayout();
+			this.splitContainer1.Panel2.SuspendLayout();
+			this.splitContainer1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tableLayoutPanel1
@@ -136,25 +142,39 @@ namespace SumaFacturas_Sat
 			// 
 			// panel2
 			// 
-			this.panel2.Controls.Add(this.lvValores);
-			this.panel2.Controls.Add(this.textBox1);
+			this.panel2.Controls.Add(this.splitContainer1);
 			this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.panel2.Location = new System.Drawing.Point(3, 3);
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(626, 302);
 			this.panel2.TabIndex = 2;
 			// 
-			// lvValores
+			// splitContainer1
 			// 
-			this.lvValores.Dock = System.Windows.Forms.DockStyle.Right;
-			this.lvValores.LargeImageList = this.imageList;
-			this.lvValores.Location = new System.Drawing.Point(440, 0);
-			this.lvValores.Name = "lvValores";
-			this.lvValores.Size = new System.Drawing.Size(186, 302);
-			this.lvValores.SmallImageList = this.imageList;
-			this.lvValores.TabIndex = 2;
-			this.lvValores.UseCompatibleStateImageBehavior = false;
-			this.lvValores.View = System.Windows.Forms.View.Tile;
+			this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+			this.splitContainer1.Name = "splitContainer1";
+			// 
+			// splitContainer1.Panel1
+			// 
+			this.splitContainer1.Panel1.Controls.Add(this.textBox1);
+			// 
+			// splitContainer1.Panel2
+			// 
+			this.splitContainer1.Panel2.Controls.Add(this.lvValores);
+			this.splitContainer1.Size = new System.Drawing.Size(626, 302);
+			this.splitContainer1.SplitterDistance = 454;
+			this.splitContainer1.TabIndex = 0;
+			// 
+			// textBox1
+			// 
+			this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.textBox1.Location = new System.Drawing.Point(0, 0);
+			this.textBox1.Multiline = true;
+			this.textBox1.Name = "textBox1";
+			this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+			this.textBox1.Size = new System.Drawing.Size(454, 302);
+			this.textBox1.TabIndex = 3;
 			// 
 			// imageList
 			// 
@@ -162,18 +182,17 @@ namespace SumaFacturas_Sat
 			this.imageList.TransparentColor = System.Drawing.Color.Transparent;
 			this.imageList.Images.SetKeyName(0, "Yen coin.ico");
 			// 
-			// textBox1
+			// lvValores
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-									| System.Windows.Forms.AnchorStyles.Left)));
-			this.textBox1.Location = new System.Drawing.Point(0, 0);
-			this.textBox1.Multiline = true;
-			this.textBox1.Name = "textBox1";
-			this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.textBox1.Size = new System.Drawing.Size(431, 302);
-			this.textBox1.TabIndex = 1;
-			this.textBox1.TextAlignChanged += new System.EventHandler(this.TextBox1TextAlignChanged);
-			this.textBox1.TextChanged += new System.EventHandler(this.TextBox1TextChanged);
+			this.lvValores.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.lvValores.LargeImageList = this.imageList;
+			this.lvValores.Location = new System.Drawing.Point(0, 0);
+			this.lvValores.Name = "lvValores";
+			this.lvValores.Size = new System.Drawing.Size(168, 302);
+			this.lvValores.SmallImageList = this.imageList;
+			this.lvValores.TabIndex = 6;
+			this.lvValores.UseCompatibleStateImageBehavior = false;
+			this.lvValores.View = System.Windows.Forms.View.Tile;
 			// 
 			// MainForm
 			// 
@@ -187,8 +206,13 @@ namespace SumaFacturas_Sat
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.panel1.ResumeLayout(false);
 			this.panel2.ResumeLayout(false);
-			this.panel2.PerformLayout();
+			this.splitContainer1.Panel1.ResumeLayout(false);
+			this.splitContainer1.Panel1.PerformLayout();
+			this.splitContainer1.Panel2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+			this.splitContainer1.ResumeLayout(false);
 			this.ResumeLayout(false);
+
 		}
 	}
 }
