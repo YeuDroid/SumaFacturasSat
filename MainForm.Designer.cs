@@ -15,15 +15,15 @@ namespace SumaFacturas_Sat
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Button bCopiar;
 		private System.Windows.Forms.Button bGetTotales;
 		private System.Windows.Forms.Label lValores;
 		private System.Windows.Forms.Label lTotales;
 		private System.Windows.Forms.Panel panel2;
-		private System.Windows.Forms.ListView lvValores;
 		private System.Windows.Forms.ImageList imageList;
+		private System.Windows.Forms.ListView lvValores;
+		private System.Windows.Forms.TextBox textBox1;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -146,13 +146,14 @@ namespace SumaFacturas_Sat
 			// 
 			// lvValores
 			// 
-			this.lvValores.Dock = System.Windows.Forms.DockStyle.Right;
+			this.lvValores.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.lvValores.LargeImageList = this.imageList;
-			this.lvValores.Location = new System.Drawing.Point(440, 0);
+			this.lvValores.Location = new System.Drawing.Point(463, 0);
 			this.lvValores.Name = "lvValores";
-			this.lvValores.Size = new System.Drawing.Size(186, 302);
+			this.lvValores.Size = new System.Drawing.Size(163, 302);
 			this.lvValores.SmallImageList = this.imageList;
-			this.lvValores.TabIndex = 2;
+			this.lvValores.TabIndex = 9;
 			this.lvValores.UseCompatibleStateImageBehavior = false;
 			this.lvValores.View = System.Windows.Forms.View.Tile;
 			// 
@@ -164,15 +165,15 @@ namespace SumaFacturas_Sat
 			// 
 			// textBox1
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-									| System.Windows.Forms.AnchorStyles.Left)));
+			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			| System.Windows.Forms.AnchorStyles.Left) 
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.textBox1.Location = new System.Drawing.Point(0, 0);
 			this.textBox1.Multiline = true;
 			this.textBox1.Name = "textBox1";
 			this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.textBox1.Size = new System.Drawing.Size(431, 302);
-			this.textBox1.TabIndex = 1;
-			this.textBox1.TextAlignChanged += new System.EventHandler(this.TextBox1TextAlignChanged);
+			this.textBox1.Size = new System.Drawing.Size(463, 302);
+			this.textBox1.TabIndex = 7;
 			this.textBox1.TextChanged += new System.EventHandler(this.TextBox1TextChanged);
 			// 
 			// MainForm
@@ -189,6 +190,7 @@ namespace SumaFacturas_Sat
 			this.panel2.ResumeLayout(false);
 			this.panel2.PerformLayout();
 			this.ResumeLayout(false);
+
 		}
 	}
 }
